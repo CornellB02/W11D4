@@ -15,7 +15,7 @@ export default function produceReducer(state={}, action) {
 }
 
 export const populateProduce = () => {
-    debugger
+    // debugger
     return {
         type: POPULATE,
         produce: produceData
